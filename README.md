@@ -5,7 +5,7 @@
 
 <!-- Typing Animation Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+%26+Ideas+and+Creativity+;Exploring+How+AI+Shapes+the+Future" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+and+ideas+%26+Ideas;Exploring+How+AI+Shapes+the+Future+and+Workflows" alt="Typing SVG" />
 </h1>
 
 <h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
@@ -14,7 +14,7 @@
 I’m obsessed with all things AI 🤖.  
 I love building cool tools, improving existing systems, and exploring how AI can make life easier and more exciting.  
 My journey is all about creating incredible AI projects and sharing what I learn along the way.  
-If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥 KodIQ</a> where I share my ideas on AI, make AI Tutorials, and my journey! 🚀
+If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥 KodIQ</a> where I share my thoughts on AI, tech, and my journey! 🚀
 </p>
 
 ---
@@ -69,15 +69,30 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
 
 <!-- YOUTUBE:START -->
 <div align="center">
+
+  <!-- Row 1 -->
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_1/mqdefault.jpg" width="320" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 1">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_1/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 1">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_2/mqdefault.jpg" width="320" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 2">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_2/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 2">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_3/mqdefault.jpg" width="320" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 3">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_3/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 3">
   </a>
+
+  <!-- Row 2 -->
+  <br>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_4" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_4/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 4">
+  </a>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_5" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_5/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 5">
+  </a>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_6" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_6/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 6">
+  </a>
+
 </div>
 <!-- YOUTUBE:END -->
 
@@ -97,10 +112,20 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
   </a>
 </div>
 
+
 ---
 
-### 🐍 Fun Animation
+### ⚡ Final Vibes  
 
-<img src="https://raw.githubusercontent.com/Alexmarco18/Alexmarco18/output/snake.svg" alt="Snake animation" />
+<h3 align="center" style="font-size:22px;">⚡ Grinding Code Like a Pro</h3>
+
+<div align="center" style="margin: 10px 0;">
+  <img src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif"
+       alt="Fast coding animation"
+       width="400"
+       style="border-radius:12px; box-shadow:0 6px 14px rgba(0,0,0,0.2); display:block;">
+</div>
+
+
 
 ---
