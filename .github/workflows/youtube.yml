@@ -1,10 +1,9 @@
 name: Update YouTube Videos
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every 24 hours at midnight UTC
-  workflow_dispatch: # Manual trigger
+    - cron: "0 0 * * *" # Runs every 24 hours
+  workflow_dispatch:
 
-# ✅ Required so GitHub Actions can push changes to your README.md
 permissions:
   contents: write
 
@@ -20,5 +19,28 @@ jobs:
         with:
           channel_id: UCSPtcKpk73_vuQnVhJHfbZA
           max_videos: 6
+          template: |
+            <table align="center">
+            {% for video in videos %}
+              {% if loop.index0 is divisibleby 3 %}<tr>{% endif %}
+                <td align="center" style="padding: 10px; max-width: 300px;">
+                  <a href="https://www.youtube.com/watch?v={{video.id}}" target="_blank">
+                    <img src="https://img.youtube.com/vi/{{video.id}}/mqdefault.jpg" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" alt="{{video.title}}">
+                  </a>
+                  <div style="text-align:center; margin-top: 6px; font-size: 14px;">
+                    <strong>
+                      {% if video.title | length > 50 %}
+                        {{ video.title[:47] }}...
+                      {% else %}
+                        {{ video.title }}
+                      {% endif %}
+                    </strong>
+                    <br>
+                    <em style="color: gray;">📅 {{video.published_at | date("MMM d, yyyy")}}</em>
+                  </div>
+                </td>
+              {% if (loop.index0 + 1) is divisibleby 3 %}</tr>{% endif %}
+            {% endfor %}
+            </table>
           readme_path: README.md
           commit_message: "🔄 Updated YouTube videos"
