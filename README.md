@@ -3,9 +3,13 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+%26+Ideas;Exploring+How+AI+Shapes+the+Future" alt="Typing SVG" />
 </h1>
 
-<!-- Big Centered Profile Picture -->
+<!-- Big Centered Profile Picture in Circle -->
 <div align="center" style="margin: 20px 0;">
-  <img src="https://github.com/Alexmarco18.png" width="220" style="border-radius: 50%; box-shadow: 0px 4px 15px rgba(0,0,0,0.25);" alt="Alex Profile Picture">
+  <div style="width: 240px; height: 240px; border-radius: 50%; overflow: hidden; border: 4px solid #FF0000; box-shadow: 0 6px 18px rgba(0,0,0,0.3); display: inline-block;">
+    <img src="https://github.com/Alexmarco18.png"
+         alt="Alex Profile Picture"
+         style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
 </div>
 
 <h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
@@ -14,7 +18,7 @@
 I’m obsessed with all things AI 🤖.  
 I love building cool tools, improving existing systems, and exploring how AI can make life easier and more exciting.  
 My journey is all about creating incredible AI projects and sharing what I learn along the way.  
-If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥 KodIQ</a> where I share my thoughts on AI, tech, and my journey! 🚀
+If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥KodIQ</a> where I share my thoughts on AI, tech, and my journey! 🚀
 </p>
 
 ---
@@ -66,24 +70,24 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
 <!-- GitHub Action will update this list automatically -->
 
 <!-- YOUTUBE:START -->
-<div align="center">
+<div align="center" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; max-width: 960px; margin: 0 auto;">
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_1/mqdefault.jpg" width="300" alt="Video 1">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_1/mqdefault.jpg" alt="Video 1" style="border-radius: 8px;">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_2/mqdefault.jpg" width="300" alt="Video 2">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_2/mqdefault.jpg" alt="Video 2" style="border-radius: 8px;">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_3/mqdefault.jpg" width="300" alt="Video 3">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_3/mqdefault.jpg" alt="Video 3" style="border-radius: 8px;">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_4" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_4/mqdefault.jpg" width="300" alt="Video 4">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_4/mqdefault.jpg" alt="Video 4" style="border-radius: 8px;">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_5" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_5/mqdefault.jpg" width="300" alt="Video 5">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_5/mqdefault.jpg" alt="Video 5" style="border-radius: 8px;">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_6" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_6/mqdefault.jpg" width="300" alt="Video 6">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_6/mqdefault.jpg" alt="Video 6" style="border-radius: 8px;">
   </a>
 </div>
 <!-- YOUTUBE:END -->
