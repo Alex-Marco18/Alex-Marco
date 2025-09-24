@@ -3,15 +3,11 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+%26+Ideas;Exploring+How+AI+Shapes+the+Future" alt="Typing SVG" />
 </h1>
 
-<!-- Big Centered Profile Picture in Circle -->
-<!-- Clean Centered Profile Picture in a Circle -->
 <div align="center" style="margin: 20px 0;">
-  <div style="width: 180px; height: 180px; border-radius: 50%; overflow: hidden; border: 3px solid #FF0000; box-shadow: 0 4px 12px rgba(0,0,0,0.25); display: inline-block;">
-    <img src="https://github.com/Alexmarco18.png"
-         alt="Alex Profile Picture"
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
+  <img src="https://github.com/Alexmarco18.png" width="220" style="border-radius: 50%; box-shadow: 0px 4px 15px rgba(0,0,0,0.25);" alt="Alex Profile Picture">
 </div>
+
+<h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
 
 <h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
 
