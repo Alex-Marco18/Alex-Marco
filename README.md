@@ -5,7 +5,7 @@
 
 <!-- Typing Animation Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+and+ideas+%26+Ideas;Exploring+How+AI+Shapes+the+Future+and+Workflows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+%26+Ideas;Exploring+How+AI+Shapes+the+Future+and+Workflows" alt="Typing SVG" />
 </h1>
 
 <h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
@@ -14,7 +14,7 @@
 I’m obsessed with all things AI 🤖.  
 I love building cool tools, improving existing systems, and exploring how AI can make life easier and more exciting.  
 My journey is all about creating incredible AI projects and sharing what I learn along the way.  
-If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥 KodIQ</a> where I share my thoughts on AI, tech, and my journey! 🚀
+If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥KodIQ</a> where I share my thoughts on AI, tech, and my journey! 🚀
 </p>
 
 ---
