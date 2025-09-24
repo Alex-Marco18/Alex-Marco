@@ -1,8 +1,13 @@
+# .github/workflows/youtube.yml
 name: Update YouTube Videos
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every 24 hours at midnight UTC
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+  workflow_dispatch: # Manual trigger
+
+# Give the job permission to update repository contents (required to commit)
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -11,37 +16,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch YouTube videos
-        uses: DenverCoder1/github-readme-youtube-feed@v1.0.0
+      - name: Insert YouTube cards into README
+        uses: DenverCoder1/github-readme-youtube-cards@v1.8.0
         with:
           channel_id: UCSPtcKpk73_vuQnVhJHfbZA
           max_videos: 6
-          template: |
-            <table align="center">
-              {% for video in videos %}
-              {% if loop.index0 is divisibleby 3 %}<tr>{% endif %}
-                <td align="center" style="padding: 10px; max-width: 320px;">
-                  <a href="https://www.youtube.com/watch?v={{video.id}}" target="_blank">
-                    <img src="https://img.youtube.com/vi/{{video.id}}/mqdefault.jpg" width="300" alt="{{video.title}}">
-                  </a>
-                  <br>
-                  <div style="text-align:center; margin-top: 5px;">
-                    <strong>
-                      {% if video.title | length > 50 %}
-                        {{ video.title[:47] }}...
-                      {% else %}
-                        {{ video.title }}
-                      {% endif %}
-                    </strong>
-                    <br>
-                    <em>📅 {{video.published_at | date("MMM d, yyyy")}}</em>
-                  </div>
-                </td>
-              {% if (loop.index0 + 1) is divisibleby 3 %}</tr>{% endif %}
-              {% endfor %}
-            </table>
-
-      - name: Commit and push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
+          readme_path: README.md
           commit_message: "🔄 Updated YouTube videos"
+          # comment_tag_name: YOUTUBE-CARDS   # default
+          # youtube_api_key: ${{ secrets.YOUTUBE_API_KEY }}  # only needed for extra features
