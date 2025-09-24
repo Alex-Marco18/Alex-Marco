@@ -9,7 +9,6 @@
 
 <h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
 
-<h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
 
 <p align="center">
 I’m obsessed with all things AI 🤖.  
