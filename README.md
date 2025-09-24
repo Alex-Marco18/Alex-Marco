@@ -4,7 +4,7 @@
 </h1>
 
 <div align="center" style="margin: 20px 0;">
-  <img src="https://github.com/Alexmarco18.png" width="220" style="border-radius: 50%; box-shadow: 0px 4px 15px rgba(0,0,0,0.25);" alt="Alex Profile Picture">
+  <img src="https://github.com/Alex-Marco18.png" width="220" style="border-radius: 50%; box-shadow: 0px 4px 15px rgba(0,0,0,0.25);" alt="Alex Profile Picture">
 </div>
 
 <h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
