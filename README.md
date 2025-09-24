@@ -1,6 +1,6 @@
 <!-- Typing Animation Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+%26+Ideas;Exploring+How+AI+Shapes+The+Future" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Building+AI+Projects+%26+Ideas+Creativity;Exploring+How+AI+Shapes+The+Future" alt="Typing SVG" />
 </h1>
 
 <h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
@@ -8,11 +8,10 @@
 <p align="center">
 I’m obsessed with all things AI 🤖.  
 I love building cool tools, improving existing systems, and exploring how AI can make life easier and more exciting.  
-If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥 YouTube channel</a> where I share my thoughts on AI, tech, and my journey! 🚀
+If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥 KodIQ</a> where I share my thoughts on AI, tech, and my journey! 🚀
 </p>
 
 <hr style="margin: 16px 0;">
-
 
 ### 📊 GitHub Stats  
 
@@ -28,12 +27,26 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
 ### 🛠️ Tech Stack & Tools  
 
 <div align="left" style="margin-bottom: 10px;">
-  <!-- icons... -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="35" />
 </div>
 
 <hr style="margin: 16px 0;">
 
-### 🎥 Latest YouTube Videos
+### 🎥 Latest YouTube Videos  
 
 <!-- BEGIN YOUTUBE-CARDS -->
 <!-- END YOUTUBE-CARDS -->
