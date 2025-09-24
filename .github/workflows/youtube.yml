@@ -1,1 +1,28 @@
+name: Update YouTube Videos
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every 24 hours at midnight UTC
+  workflow_dispatch: # Allows you to run manually whenever you want
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch YouTube videos
+        uses: DenverCoder1/github-readme-youtube-feed@v1.0.0
+        with:
+          channel_id: YOUR_CHANNEL_ID_HERE
+          max_videos: 3
+          template: |
+            <a href="https://www.youtube.com/watch?v={{id}}" target="_blank">
+              <img src="https://img.youtube.com/vi/{{id}}/mqdefault.jpg" width="300" alt="{{title}}">
+            </a>
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🔄 Updated YouTube videos"
 
