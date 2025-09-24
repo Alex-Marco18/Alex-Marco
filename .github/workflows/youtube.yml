@@ -1,11 +1,10 @@
-# .github/workflows/youtube.yml
 name: Update YouTube Videos
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every 24 hours at midnight UTC
   workflow_dispatch: # Manual trigger
 
-# Give the job permission to update repository contents (required to commit)
+# ✅ Required so GitHub Actions can push changes to your README.md
 permissions:
   contents: write
 
@@ -23,5 +22,3 @@ jobs:
           max_videos: 6
           readme_path: README.md
           commit_message: "🔄 Updated YouTube videos"
-          # comment_tag_name: YOUTUBE-CARDS   # default
-          # youtube_api_key: ${{ secrets.YOUTUBE_API_KEY }}  # only needed for extra features
