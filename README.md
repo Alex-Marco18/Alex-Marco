@@ -9,7 +9,7 @@
 I’m obsessed with all things AI 🤖.  
 I love building cool tools, improving existing systems, and exploring how AI can make life easier and more exciting.  
 My journey is all about creating incredible AI projects and sharing what I learn along the way.  
-If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥 YouTube channel</a> where I share my thoughts on AI, tech, and my journey! 🚀
+If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_blank">🎥 KodIQ</a> where I share my thoughts on AI, tech, and my journey! 🚀
 </p>
 
 <hr style="margin: 20px 0;">
