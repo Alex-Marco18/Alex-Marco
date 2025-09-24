@@ -1,16 +1,15 @@
-<!-- Profile Header with Picture -->
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="Alex Marco" width="150" style="border-radius:50%; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
-</div>
-
 <!-- Typing Animation Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+%26+Ideas;Exploring+How+AI+Shapes+the+Future+and+Workflows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=AI+Engineer+%7C+Tech+Enthusiast+%7C+Builder;Sharing+AI+Projects+%26+Ideas;Exploring+How+AI+Shapes+the+Future" alt="Typing SVG" />
 </h1>
 
-<h2 align="center">👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
+<!-- Profile Pic + Intro -->
+<div align="left" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img src="https://github.com/Alexmarco18.png" width="160" style="border-radius: 50%;" alt="Alex Profile Picture">
+  <h2>👋 Hey there! I’m <strong>Alex</strong> – an AI Engineer</h2>
+</div>
 
-<p align="center" style="font-size:18px; max-width:700px; margin:auto;">
+<p align="center">
 I’m obsessed with all things AI 🤖.  
 I love building cool tools, improving existing systems, and exploring how AI can make life easier and more exciting.  
 My journey is all about creating incredible AI projects and sharing what I learn along the way.  
@@ -22,8 +21,8 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Alexmarco18&show_icons=true&theme=dracula&count_private=true" height="180" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Alexmarco18&layout=compact&langs_count=6&theme=dracula" height="180" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Alexmarco18&show_icons=true&theme=dracula&count_private=true" height="150" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Alexmarco18&layout=compact&langs_count=6&theme=dracula" height="150" alt="Top Languages" />
 </div>
 
 ---
@@ -31,35 +30,31 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
 ### 🛠️ Tech Stack & Tools  
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="45" style="margin: 8px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="45" style="margin: 8px;" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="45" />
 </div>
 
 ---
 
-<!-- Coding GIF Section -->
-<h3 align="center" style="font-size:22px;">🖥️ Coding Vibes</h3>
-<p align="center" style="font-size:16px; max-width:600px; margin:6px auto;">
-  Late-night coding sessions, coffee, and building things that solve real problems — that’s my happy place.  
-</p>
+### 🎬 Coding Vibes  
 
 <div align="center" style="margin: 10px 0;">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
-       alt="Boy coding on laptop"
-       width="320"
+       alt="Boy coding animation"
+       width="350"
        style="border-radius:12px; box-shadow:0 6px 14px rgba(0,0,0,0.2); display:block;">
 </div>
 
@@ -67,34 +62,32 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
 
 ### 🎥 Latest YouTube Videos  
 
+<!-- GitHub Action will update this list automatically -->
+
 <!-- YOUTUBE:START -->
 <div align="center">
-
-  <!-- Row 1 -->
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_1/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 1">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_1/mqdefault.jpg" width="300" alt="Video 1">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_2/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 2">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_2/mqdefault.jpg" width="300" alt="Video 2">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_3/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 3">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_3/mqdefault.jpg" width="300" alt="Video 3">
   </a>
-
-  <!-- Row 2 -->
-  <br>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_4" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_4/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 4">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_4/mqdefault.jpg" width="300" alt="Video 4">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_5" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_5/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 5">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_5/mqdefault.jpg" width="300" alt="Video 5">
   </a>
   <a href="https://www.youtube.com/watch?v=VIDEO_ID_6" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID_6/mqdefault.jpg" width="300" style="margin: 8px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" alt="Video 6">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_6/mqdefault.jpg" width="300" alt="Video 6">
   </a>
-
 </div>
 <!-- YOUTUBE:END -->
+
+*(This section updates automatically with your latest uploads using a GitHub Action)*
 
 ---
 
@@ -112,7 +105,6 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
   </a>
 </div>
 
-
 ---
 
 ### ⚡ Final Vibes  
@@ -125,7 +117,5 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
        width="400"
        style="border-radius:12px; box-shadow:0 6px 14px rgba(0,0,0,0.2); display:block;">
 </div>
-
-
 
 ---
