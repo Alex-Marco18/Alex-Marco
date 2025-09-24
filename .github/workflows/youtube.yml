@@ -2,7 +2,7 @@ name: Update YouTube Videos
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every 24 hours at midnight UTC
-  workflow_dispatch: # Allows you to trigger it manually anytime
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
   update-readme:
@@ -17,12 +17,29 @@ jobs:
           channel_id: UCSPtcKpk73_vuQnVhJHfbZA
           max_videos: 6
           template: |
-            <div style="display: inline-block; margin: 10px;">
-              <a href="https://www.youtube.com/watch?v={{id}}" target="_blank">
-                <img src="https://img.youtube.com/vi/{{id}}/mqdefault.jpg" width="300" alt="{{title}}">
-              </a>
-              <p align="center"><strong>{{title}}</strong></p>
-            </div>
+            <table align="center">
+              {% for video in videos %}
+              {% if loop.index0 is divisibleby 3 %}<tr>{% endif %}
+                <td align="center" style="padding: 10px; max-width: 320px;">
+                  <a href="https://www.youtube.com/watch?v={{video.id}}" target="_blank">
+                    <img src="https://img.youtube.com/vi/{{video.id}}/mqdefault.jpg" width="300" alt="{{video.title}}">
+                  </a>
+                  <br>
+                  <div style="text-align:center; margin-top: 5px;">
+                    <strong>
+                      {% if video.title | length > 50 %}
+                        {{ video.title[:47] }}...
+                      {% else %}
+                        {{ video.title }}
+                      {% endif %}
+                    </strong>
+                    <br>
+                    <em>📅 {{video.published_at | date("MMM d, yyyy")}}</em>
+                  </div>
+                </td>
+              {% if (loop.index0 + 1) is divisibleby 3 %}</tr>{% endif %}
+              {% endfor %}
+            </table>
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
