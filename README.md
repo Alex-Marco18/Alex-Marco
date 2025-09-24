@@ -5,7 +5,7 @@
 
 <!-- Big Centered Profile Picture in Circle -->
 <div align="center" style="margin: 20px 0;">
-  <div style="width: 240px; height: 240px; border-radius: 50%; overflow: hidden; border: 4px solid #FF0000; box-shadow: 0 6px 18px rgba(0,0,0,0.3); display: inline-block;">
+  <div style="width: 210px; height: 210px; border-radius: 50%; overflow: hidden; border: 4px solid #FF0000; box-shadow: 0 6px 18px rgba(0,0,0,0.3); display: inline-block;">
     <img src="https://github.com/Alexmarco18.png"
          alt="Alex Profile Picture"
          style="width: 100%; height: 100%; object-fit: cover;">
