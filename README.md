@@ -21,6 +21,7 @@ If you’re into AI too, check out my <a href="https://bit.ly/KodIQ" target="_bl
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Alexmarco18&layout=compact&langs_count=6&theme=dracula" height="150" alt="Top Languages" />
 </div>
 
+
 <hr style="margin: 20px 0;">
 
 <img align="right" height="160" src="https://i.imgflip.com/65efzo.gif" alt="Coding Gif" />
